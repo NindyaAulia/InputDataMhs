@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/contact_text"
+        android:textSize="@dimen/font"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btncall"
+        android:onClick="call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/contact_text2"
+        android:textSize="@dimen/font"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/smsme"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="@string/hittext" />
+
+    <Button
+        android:id="@+id/btnsms"
+        android:onClick="sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms"/>
+    <Button
+        android:id="@+id/btnlokasi"
+        android:onClick="lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lokasi"/>
+
+</LinearLayout>

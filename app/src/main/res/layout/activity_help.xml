@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.okedroid.biodatadirisqlite.HelpActivity">
+
+    <TextView
+        android:id="@+id/satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Masukan ID Mahasiswa"
+        android:textSize="@dimen/font"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Masukan Nama Mahasiswa"
+        android:textSize="@dimen/font"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Masukan Tanggal Lahir Mahasiswa"
+        android:textSize="@dimen/font"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Masukan Jenis Kelamin Mahasiswa"
+        android:textSize="@dimen/font"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Masukan Alamat Mahasiswa"
+        android:textSize="@dimen/font"
+        tools:ignore="HardcodedText,SpUsage" />
+    <TextView
+        android:id="@+id/enam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lalu Klik Simpan"
+        android:textSize="@dimen/font"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
